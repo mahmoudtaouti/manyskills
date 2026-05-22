@@ -52,6 +52,7 @@ graph TD
     Wiki["📖 Project Wiki<br/>(nodes/wiki_node.md)"]:::node
     MktHub["📣 Marketing Hub<br/>(_marketing/SKILL.md)"]:::highlight
     BizHub["💼 Business Hub<br/>(_business/SKILL.md)"]:::node
+    HRHub["👥 HR Hub<br/>(_human_resource/SKILL.md)"]:::node
 
     %% Connections
     Root --> Fallback
@@ -67,6 +68,7 @@ graph TD
     Doc --> Wiki
     Mkt --> MktHub
     Biz --> BizHub
+    Biz --> HRHub
 ```
 
 ---
@@ -110,6 +112,7 @@ Follow this protocol to orchestrate the user's simple prompt:
 * **[Financial Hub](./_financial/SKILL.md)** | [Raw Link](https://raw.githubusercontent.com/mahmoudtaouti/manyskills/master/_financial/SKILL.md)
 * **[Sales Hub](./_sales/SKILL.md)** | [Raw Link](https://raw.githubusercontent.com/mahmoudtaouti/manyskills/master/_sales/SKILL.md)
 * **[SEO Hub](./_SEO/SKILL.md)** | [Raw Link](https://raw.githubusercontent.com/mahmoudtaouti/manyskills/master/_SEO/SKILL.md)
+* **[Human Resource Hub](./_human_resource/SKILL.md)** | [Raw Link](https://raw.githubusercontent.com/mahmoudtaouti/manyskills/master/_human_resource/SKILL.md)
 
 ---
 
